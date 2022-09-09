@@ -2,3 +2,41 @@
     font-family: 'Raleway';
     src: url('../assets/Raleway-VariableFont_wght.ttf') format('truetype');
 }
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+#logo {
+    margin: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu-btn {
+        width: 200px;
+        padding: 10%;
+        height: max-content;
+        text-align: center;
+    }
+
+    .menu-btn:hover {
+        background-color: #eee;
+        border-bottom: 5px solid blue;
+    }
+}
+
