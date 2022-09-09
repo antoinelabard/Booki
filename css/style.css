@@ -11,6 +11,9 @@
 
 header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
@@ -20,6 +23,8 @@ header {
 #menu {
     display: flex;
     font-size: large;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menu-btn {
@@ -28,15 +33,9 @@ header {
 }
 
 @media screen and (min-width: 992px) {
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
 
     #menu {
-        flex-direction: row;
-        align-items: center;
+        
     }
 
     .menu-btn {
@@ -49,6 +48,10 @@ header {
         background-color: #F2F2F2;
         border-top: 5px solid #0065FC;
     }
+}
+
+@media screen and (min-width: 768px) {
+    
 }
 
 @media screen and (max-width: 768px) {
