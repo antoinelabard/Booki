@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <title>Booky</title>
 </head>
@@ -26,6 +27,19 @@
         </div>
     </header>
     <div id="recherche">
+        <p>Trouvez votre hébergement pour des vacances de rêve</p>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form id="saisie">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+                <input type="text" name="destination" id="recherche-text-form" placeholder="Marseille, France"
+                    size="15" />
+            </p>
+            <button type="submit">
+                <p>Envoyer</p>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
 
     </div>
     <div id="resultats">
