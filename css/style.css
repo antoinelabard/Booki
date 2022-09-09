@@ -28,7 +28,8 @@
     }
 
     .menu-btn {
-        width: 200px;
+        min-width: 200px;
+        min-height: 100px;
         padding: 10%;
         height: max-content;
         text-align: center;
@@ -40,3 +41,29 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        font-size: large;
+        width: 100%;
+    }
+
+    .menu-btn {
+        width: 50%;
+        min-width: 200px;
+        text-align: center;
+        border-bottom: #eee solid 5px;
+    }
+
+    .menu-btn:hover {
+        border-bottom: blue solid 5px;
+    }
+}
