@@ -7,9 +7,9 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" />
 
-    <title>Booky</title>
+    <title>Booki</title>
 </head>
 
 <body>
@@ -30,14 +30,11 @@
         <p>Trouvez votre hébergement pour des vacances de rêve</p>
         <p>En plein centre ville ou en pleine nature</p>
         <form id="saisie">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>
-                <input type="text" name="destination" id="recherche-text-form" placeholder="Marseille, France"
-                    size="15" />
-            </p>
-            <button type="submit">
-                <p>Envoyer</p>
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-location-dot" id="recherche-location-dot-icon"></i>
+            <input type="text" name="destination" id="recherche-text-form" placeholder="Marseille, France" size="15" />
+            <button id="recherche-submit-btn" type="submit">
+                <p>Rechercher</p>
+                <i class="fa-solid fa-magnifying-glass" id="recherche-search-icon"></i>
             </button>
         </form>
 
