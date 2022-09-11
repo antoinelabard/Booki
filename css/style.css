@@ -37,6 +37,28 @@ header {
     padding: 5%;
 }
 
+#recherche-text-form {
+    border: #F2F2F2 solid 2px;
+}
+
+#recherche-submit-btn {
+    background-color: #0065FC;
+    border: #F2F2F2 solid 3px;
+    border-radius: 0 15px 15px 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    font-weight: bold;
+    border: none;
+}
+
+#saisie {
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (min-width: 992px) {
     .menu-btn {
         padding: 10%;
@@ -47,12 +69,6 @@ header {
         border-top: 5px solid #0065FC;
     }
 
-    #saisie {
-        display: flex;
-        flex-direction: row;
-        width: fit-content;
-    }
-
     #recherche-submit-icon {
         display: none;
     }
@@ -60,24 +76,6 @@ header {
     #recherche-location-dot-icon {
         border-radius: 15px 0 0 15px;
         background-color: #F2F2F2;
-    }
-
-    #recherche-submit-btn {
-        background-color: #0065FC;
-        border: #F2F2F2 solid 3px;
-        border-radius: 0 15px 15px 0;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #F2F2F2;
-        font-weight: bold;
-        border: none;
-    }
-
-    #recherche-text-form {
-        border: #F2F2F2 solid 2px;
-
     }
 }
 
@@ -103,12 +101,6 @@ header {
         border-bottom: #0065FC solid 5px;
     }
 
-    #saisie {
-        display: flex;
-        flex-direction: row;
-        width: fit-content;
-    }
-
     #recherche-submit-text {
         display: none;
     }
@@ -118,29 +110,9 @@ header {
         background-color: #F2F2F2;
     }
 
-    #recherche-submit-btn-container {
-        height: 100%;
-        padding: 100%;
-    }
-
     #recherche-submit-btn {
-        background-color: #0065FC;
-        border: #F2F2F2 solid 3px;
-        border-radius: 15px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #F2F2F2;
-        font-weight: bold;
-        border: none;
         position: relative;
         right: 15px;
         width: 45px;
-    }
-
-    #recherche-text-form {
-        border: #F2F2F2 solid 2px;
-
     }
 }
