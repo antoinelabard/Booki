@@ -110,8 +110,6 @@ header {
 
 #hb {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 #hebergement {
@@ -128,7 +126,7 @@ header {
     justify-content: center;
 }
 
-.hebergemement-card {
+.hebergement-card {
     width: 300px;
     background-color: white;
     box-shadow: 0px 5px 20px #999;
@@ -139,7 +137,7 @@ header {
     min-width: 350px;
 }
 
-.hebergemement-card-img {
+.hebergement-card-img {
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -160,7 +158,6 @@ header {
 }
 
 #populaires {
-    width: 400px;
     padding: 20px;
     margin: 20px;
     background-color: #F2F2F2;
@@ -168,7 +165,6 @@ header {
 }
 
 #populaires-cards {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,9 +213,50 @@ header {
         border-radius: 15px 0 0 15px;
         background-color: #F2F2F2;
     }
+
+    #hb {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    #hebergements {
+        margin-right: 10px;
+    }
+
+    #populaires {
+        width: 30%;
+        min-width: 400px;
+        margin-left: 10px;
+    }
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #hb {
+        flex-direction: column-reverse;
+    }
+
+    #hebergements {
+        margin-bottom: 10px;
+    }
+
+    #populaires {
+        margin-top: 10px;
+    }
+
+    .populaires-card {
+        width: 100%;
+        height: 200px;
+    }
+
+    .hebergement-card {
+        width: 100%;
+    }
+
+    .hebergement-card-img {
+        height: 300px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     header {
@@ -260,5 +297,34 @@ header {
     #hebergement {
         align-items: center;
         justify-content: center;
+    }
+
+    #hb {
+        flex-direction: column-reverse;
+    }
+
+    #hebergements {
+        margin-bottom: 10px;
+    }
+
+    #populaires {
+        margin-top: 10px;
+    }
+
+    .populaires-card {
+        width: 100%;
+        height: 200px;
+    }
+
+    .hebergement-card {
+        width: 100%;
+    }
+
+    .populaires-card-img {
+        height: 200px;
+    }
+
+    .hebergement-card-img {
+        height: 200px;
     }
 }
