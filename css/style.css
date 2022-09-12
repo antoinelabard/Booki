@@ -59,6 +59,45 @@ header {
     flex-direction: row;
 }
 
+#recherche-filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#recherche-filters-text {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.recherche-filters-chip {
+    margin: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border: #F2F2F2 solid 2px;
+    border-radius: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chip-icon {
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    color: #0065FC;
+}
+
+.chip-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (min-width: 992px) {
     .menu-btn {
         padding: 10%;
@@ -114,5 +153,6 @@ header {
         position: relative;
         right: 15px;
         width: 45px;
+        border-radius: 15px;
     }
 }
