@@ -195,6 +195,24 @@ header {
     width: 50%;
 }
 
+#activite {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.activite-card {
+    width: 300px;
+    border-radius: 25px;
+    border: #F2F2F2 solid 10px;
+    background-color: white;
+}
+
+.activite-card-img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px 15px 0 0;
+}
+
 @media screen and (min-width: 992px) {
     .menu-btn {
         padding: 10%;
