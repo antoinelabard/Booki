@@ -15,10 +15,10 @@
 
 <body>
     <header>
-        <div id="logo">
+        <div id="header-logo">
             <img src="assets/logo/Booki.png" alt="Logo du site" , width="100px" />
         </div>
-        <div id="menu">
+        <div id="header-menu">
             <div class="menu-btn" onclick="">
                 <p>Hébergements</p>
             </div>
@@ -27,58 +27,58 @@
             </div>
         </div>
     </header>
-    <div id="recherche">
+    <div id="search">
         <p id="bold-text"><b>Trouvez votre hébergement pour des vacances de rêve</b></p>
         <p>En plein centre ville ou en pleine nature</p>
-        <form id="saisie">
-            <i class="fa-solid fa-location-dot" id="recherche-location-dot-icon"></i>
-            <input type="text" name="destination" id="recherche-text-form" placeholder="Marseille, France" size="15" />
-            <button id="recherche-submit-btn" type="submit">
-                <p id="recherche-submit-text">Rechercher</p>
-                <i class="fa-solid fa-magnifying-glass" id="recherche-submit-icon"></i>
+        <form id="search-form">
+            <i class="fa-solid fa-location-dot" id="search-location-dot-icon"></i>
+            <input type="text" name="destination" id="search-text-input" placeholder="Marseille, France" size="15" />
+            <button id="search-submit-btn" type="submit">
+                <p id="search-submit-text">searchr</p>
+                <i class="fa-solid fa-magnifying-glass" id="search-submit-icon"></i>
             </button>
         </form>
-        <div id="recherche-filters">
-            <p id="recherche-filters-text">Filtres</p>
-            <div id="recherche-filters-chip-list">
-                <div class="recherche-filters-chip">
+        <div id="search-filters">
+            <p id="search-filters-text">Filtres</p>
+            <div id="search-filters-chip-list">
+                <div class="search-filters-chip">
                     <i class="chip-icon fa-solid fa-money-bill-wave"></i>
                     <p class="chip-text">Économique</p>
                 </div>
             </div>
-            <div id="recherche-filters-chip-list">
-                <div class="recherche-filters-chip">
+            <div id="search-filters-chip-list">
+                <div class="search-filters-chip">
                     <i class="chip-icon fa-solid fa-child-reaching"></i>
                     <p class="chip-text">Familiale</p>
                 </div>
             </div>
-            <div id="recherche-filters-chip-list">
-                <div class="recherche-filters-chip">
+            <div id="search-filters-chip-list">
+                <div class="search-filters-chip">
                     <i class="chip-icon fa-solid fa-heart"></i>
                     <p class="chip-text">Romantique</p>
                 </div>
             </div>
-            <div id="recherche-filters-chip-list">
-                <div class="recherche-filters-chip">
+            <div id="search-filters-chip-list">
+                <div class="search-filters-chip">
                     <i class="chip-icon fa-solid fa-dog"></i>
                     <p class="chip-text">Animaux autorisés</p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="resultats">
-        <div id="hb">
-            <section id="hebergement">
+    <div id="results">
+        <div id="hosting">
+            <section id="hosting-results">
                 <p><b>Hébergements</b></p>
-                <div id="hebergement-cards">
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                <div id="hosting-cards-list">
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Auberge La Cannebière</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 25€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Auberge La Cannebière</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 25€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -87,14 +87,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Hôtel du port</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 52€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Hôtel du port</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 52€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -103,13 +103,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Hôtel Les mouettes</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 76€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Hôtel Les mouettes</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 76€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -118,14 +118,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Hôtel de la mer</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 46€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Hôtel de la mer</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 46€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -134,13 +134,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Auberge Le Panier</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 23€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Auberge Le Panier</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 23€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -149,14 +149,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hebergement-card">
-                        <img class="hebergement-card-img"
+                    <div class="hosting-card">
+                        <img class="hosting-card-img"
                             src="assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="hebergement-card-info">
-                            <p class="hebergement-card-name"><b>Hôtel chez Amina</b></p>
-                            <p class="hebergement-card-price">Nuit à partir de 96€</p>
-                            <div class="hebergement-card-rating">
+                        <div class="hosting-card-info">
+                            <p class="hosting-card-name"><b>Hôtel chez Amina</b></p>
+                            <p class="hosting-card-price">Nuit à partir de 96€</p>
+                            <div class="hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -168,18 +168,18 @@
                 </div>
                 <p><b>Afficher plus</b></p>
             </section>
-            <section id="populaires">
-                <p><b>Populaires</b>
+            <section id="popular-hosting">
+                <p><b>popular-hosting</b>
                 </p>
-                <div id="populaires-cards">
-                    <div class="populaires-card">
-                        <img class="populaires-card-img"
+                <div id="popular-hosting-cards-list">
+                    <div class="popular-hosting-card">
+                        <img class="popular-hosting-card-img"
                             src="assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="populaires-card-info">
-                            <p class="populaires-card-name"><b>Hôtel Le soleil du matin</b></p>
-                            <p class="populaires-card-price">Nuit à partir de 128€</p>
-                            <div class="populaires-card-rating">
+                        <div class="popular-hosting-card-info">
+                            <p class="popular-hosting-card-name"><b>Hôtel Le soleil du matin</b></p>
+                            <p class="popular-hosting-card-price">Nuit à partir de 128€</p>
+                            <div class="popular-hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -188,14 +188,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="populaires-card">
-                        <img class="populaires-card-img"
+                    <div class="popular-hosting-card">
+                        <img class="popular-hosting-card-img"
                             src="assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="populaires-card-info">
-                            <p class="populaires-card-name"><b>Au coeur de l'eau Chambres d'hôtes</b></p>
-                            <p class="populaires-card-price">Nuit à partir de 71€</p>
-                            <div class="populaires-card-rating">
+                        <div class="popular-hosting-card-info">
+                            <p class="popular-hosting-card-name"><b>Au coeur de l'eau Chambres d'hôtes</b></p>
+                            <p class="popular-hosting-card-price">Nuit à partir de 71€</p>
+                            <div class="popular-hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -204,14 +204,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="populaires-card">
-                        <img class="populaires-card-img"
+                    <div class="popular-hosting-card">
+                        <img class="popular-hosting-card-img"
                             src="assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="Hosting cover" />
-                        <div class="populaires-card-info">
-                            <p class="populaires-card-name"><b>Hôtel Tou bleu et blanc</b></p>
-                            <p class="populaires-card-price">Nuit à partir de 68€</p>
-                            <div class="populaires-card-rating">
+                        <div class="popular-hosting-card-info">
+                            <p class="popular-hosting-card-name"><b>Hôtel Tou bleu et blanc</b></p>
+                            <p class="popular-hosting-card-price">Nuit à partir de 68€</p>
+                            <div class="popular-hosting-card-rating">
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
                                 <i class="rating-star-on fa-solid fa-star"></i>
@@ -224,37 +224,37 @@
                 <p><b>Afficher plus</b></p>
             </section>
         </div>
-        <section id="activite">
+        <section id="activities">
             <p><b>Activités à Marseille</b></p>
-            <div id="activite-cards">
-                <div class="activite-card">
-                    <img class="activite-card-img"
+            <div id="activities-cards-list">
+                <div class="activities-card">
+                    <img class="activities-card-img"
                         src="assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Activity cover" />
-                    <p class="activite-card-info"><b>Vieux Port</b></p>
+                    <p class="activities-card-info"><b>Vieux Port</b></p>
                 </div>
-                <div class="activite-card">
-                    <img class="activite-card-img" src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                <div class="activities-card">
+                    <img class="activities-card-img" src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                         alt="Activity cover" />
                     <p><b>Fort de Pomègues</b></p>
                 </div>
-                <div class="activite-card">
-                    <img class="activite-card-img" src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                <div class="activities-card">
+                    <img class="activities-card-img" src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                         alt="Activity cover" />
                     <p><b>Îles du Friout</b></p>
                 </div>
-                <div class="activite-card">
-                    <img class="activite-card-img"
+                <div class="activities-card">
+                    <img class="activities-card-img"
                         src="assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                         alt="Activity cover" />
                     <p><b>Le parc national des calanques</b></p>
                 </div>
-                <div class="activite-card">
-                    <img class="activite-card-img" src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                <div class="activities-card">
+                    <img class="activities-card-img" src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                         alt="Activity cover" />
                     <p><b>Notre-Dame-de-la-Garde</b></p>
                 </div>
-                <div class="activite-card">
-                    <img class="activite-card-img" src="assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                <div class="activities-card">
+                    <img class="activities-card-img" src="assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                         alt="Activity cover" />
                     <p><b>Parc Longchamp</b></p>
                 </div>
@@ -262,7 +262,7 @@
         </section>
     </div>
     <footer>
-        <section id="about">
+        <section>
             <p><b>À propos</b></p>
             <ul>
                 <li>Fonctionnement du site</li>
@@ -270,14 +270,14 @@
                 <li>Données et confidentialité</li>
             </ulul>
         </section>
-        <section id="hosting">
+        <section>
             <p><b>Nos hébergements</b></p>
             <ul>
                 <li>Charte qualité</li>
                 <li>Soumettre votre hôtel</li>
             </ul>
         </section>
-        <section id="help">
+        <section>
             <p><b>Assistance</b></p>
             <ul>
                 <li>Centre d'aide</li>
