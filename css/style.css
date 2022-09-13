@@ -200,10 +200,6 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-    height: 800px;
-    width: 100%;
 }
 
 .activite-card {
@@ -215,6 +211,7 @@ header {
     justify-content: space-between;
     flex-direction: column;
     margin: 5px;
+    box-sizing: border-box;
 }
 
 .activite-card-img {
@@ -224,28 +221,7 @@ header {
     border-radius: 15px 15px 0 0;
 }
 
-.activite-card:nth-child(3n+1) {
-    order: 1;
-}
 
-.activite-card:nth-child(3n+2) {
-    order: 2;
-}
-
-.activite-card:nth-child(3n) {
-    order: 3;
-}
-
-.activite-card:nth-child(1) > .activite-card-img,
-.activite-card:nth-child(5) > .activite-card-img {
-    height: 480px;
-}
-
-.activite-card::before, .activite-card::after {
-    flex-basis: 100%;
-    width: 0;
-    order: 2;
-}
 
 @media screen and (min-width: 992px) {
     .menu-btn {
@@ -281,6 +257,38 @@ header {
         min-width: 400px;
         margin-left: 10px;
     }
+
+    #activite {
+        overflow: scroll;
+        height: 800px;
+        flex-wrap: wrap;
+        align-content: space-between;
+
+    }
+
+    .activite-card:nth-child(3n+1) {
+        order: 1;
+    }
+
+    .activite-card:nth-child(3n+2) {
+        order: 2;
+    }
+
+    .activite-card:nth-child(3n) {
+        order: 3;
+    }
+
+    .activite-card:nth-child(1)>.activite-card-img,
+    .activite-card:nth-child(5)>.activite-card-img {
+        height: 480px;
+    }
+
+    .activite-card::before,
+    .activite-card::after {
+        flex-basis: 100%;
+        width: 0;
+        order: 2;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -297,16 +305,24 @@ header {
     }
 
     .populaires-card {
-        width: 100%;
+        width: 70%;
         height: 200px;
     }
 
     .hebergement-card {
-        width: 100%;
+        width: 80%;
     }
 
     .hebergement-card-img {
         height: 300px;
+    }
+
+    #activite {
+        align-items: center;
+    }
+
+    .activite-card {
+        width: 70%;
     }
 }
 
@@ -378,5 +394,9 @@ header {
 
     .hebergement-card-img {
         height: 200px;
+    }
+
+    .activite-card {
+        width: 100%;
     }
 }
