@@ -343,6 +343,12 @@ ul {
     .activite-card {
         width: 70%;
     }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -417,5 +423,11 @@ ul {
 
     .activite-card {
         width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: baseline;
+        padding-left: 25%;
     }
 }
