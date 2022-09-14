@@ -24,8 +24,9 @@ header {
 #header-menu {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     width: 400px;
+    height: 140px;
 }
 
 .menu-btn {
@@ -33,6 +34,8 @@ header {
     box-sizing: border-box;
     font-size: large;
     width: 50%;
+    border: none;
+    background-color: white;
 }
 
 .menu-btn:hover {
@@ -104,7 +107,7 @@ header {
 }
 
 .chip-icon {
-    background-color: #F2F2F2;
+    background-color: #DEEBFF;
     border-radius: 30px;
     width: 30px;
     height: 30px;
@@ -196,6 +199,7 @@ header {
     margin: 20px;
     background-color: #F2F2F2;
     border-radius: 15px;
+    height: min-content;
 }
 
 #popular-hosting-cards-list {
@@ -348,7 +352,7 @@ ul {
 
     #activities-cards-list {
         overflow: scroll;
-        height: 800px;
+        height: 600px;
         flex-wrap: wrap;
         align-content: space-evenly;
 
@@ -393,6 +397,16 @@ ul {
 /* Tablet display */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* Search */
+
+    #search-submit-icon {
+        display: none;
+    }
+
+
+
+
+    
     /* Hosting */
 
     #hosting {
