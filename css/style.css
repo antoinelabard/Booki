@@ -168,7 +168,6 @@ header {
     border-radius: 20px;
     margin: 1%;
     padding: 5px;
-    min-width: 350px;
 }
 
 .hosting-card-img {
@@ -409,7 +408,7 @@ ul {
 
 
 
-    
+
     /* Hosting */
 
     #hosting {
@@ -471,7 +470,7 @@ ul {
 
 /* Mobile display */
 @media screen and (max-width: 768px) {
-    
+
     /* Header */
 
     header {
@@ -513,7 +512,7 @@ ul {
         right: 15px;
         width: 45px;
         border-radius: 15px;
-        content:"";
+        content: "";
     }
 
 
@@ -525,6 +524,8 @@ ul {
     #hosting-results {
         align-items: center;
         justify-content: center;
+        margin: 0;
+        background-color: white;
     }
 
     #hosting {
@@ -537,6 +538,7 @@ ul {
 
     .hosting-card {
         width: 100%;
+        border: #F2F2F2 solid 10px;
     }
 
     .hosting-card-img {
@@ -551,6 +553,7 @@ ul {
 
     #popular-hosting {
         margin-top: 10px;
+        margin: 0;
     }
 
     .popular-hosting-card {
