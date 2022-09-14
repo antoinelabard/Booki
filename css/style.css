@@ -105,6 +105,10 @@ header {
     justify-content: space-between;
 }
 
+.search-filters-chip:hover {
+    background-color: #DEEBFF;
+}
+
 .chip-icon {
     background-color: #DEEBFF;
     border-radius: 30px;
