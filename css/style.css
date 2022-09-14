@@ -15,6 +15,8 @@ header {
     align-items: center;
 }
 
+/* Header */
+
 #header-logo {
     margin: 25px;
 }
@@ -36,6 +38,12 @@ header {
 .menu-btn:hover {
     color: #0065FC;
 }
+
+
+
+
+
+/* Search */
 
 #search {
     padding: 5%;
@@ -102,17 +110,27 @@ header {
     align-items: center;
 }
 
+
+
+
+
 #results {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#hosting{
+
+
+
+
+/* Hosting */
+
+#hosting {
     display: flex;
 }
 
-#hosting-results{
+#hosting-results {
     padding: 20px;
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -156,6 +174,12 @@ header {
     color: #F2F2F2;
 }
 
+
+
+
+
+/* Popular hosting */
+
 #popular-hosting {
     padding: 20px;
     margin: 20px;
@@ -194,6 +218,12 @@ header {
     width: 50%;
 }
 
+
+
+
+
+/* Activities */
+
 #activities {
     width: 100%;
     padding: 20px;
@@ -225,6 +255,12 @@ header {
     border-radius: 15px 15px 0 0;
 }
 
+
+
+
+
+/* Footer */
+
 footer {
     display: flex;
     background-color: #F2F2F2;
@@ -238,7 +274,11 @@ ul {
     line-height: 1.5;
 }
 
+/* Desktop display */
 @media screen and (min-width: 992px) {
+
+    /* /Header */
+
     .menu-btn {
         padding: 10%;
     }
@@ -247,6 +287,12 @@ ul {
         background-color: #F2F2F2;
         border-top: 5px solid #0065FC;
     }
+
+
+
+
+
+    /* Search */
 
     #search-submit-icon {
         display: none;
@@ -257,7 +303,13 @@ ul {
         background-color: #F2F2F2;
     }
 
-    #hosting{
+
+
+
+
+    /* Hosting */
+
+    #hosting {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -267,11 +319,23 @@ ul {
         margin-right: 10px;
     }
 
+
+
+
+
+    /* Popular hosting */
+
     #popular-hosting {
         width: 30%;
         min-width: 400px;
         margin-left: 10px;
     }
+
+
+
+
+
+    /* Activities */
 
     #activities-cards-list {
         overflow: scroll;
@@ -305,20 +369,36 @@ ul {
         order: 2;
     }
 
+
+
+
+
+    /* Footer */
+
     footer {
         flex-direction: row;
         justify-content: space-evenly;
     }
 }
 
+/* Tablet display */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    #hosting{
+
+    /* Hosting */
+
+    #hosting {
         flex-direction: column-reverse;
     }
 
     #hostings {
         margin-bottom: 10px;
     }
+
+
+
+
+
+    /* Popular hosting */
 
     #popular-hosting {
         margin-top: 10px;
@@ -337,6 +417,12 @@ ul {
         height: 300px;
     }
 
+
+
+
+
+    /* /Activities */
+
     #activities-cards-list {
         align-items: center;
     }
@@ -345,14 +431,23 @@ ul {
         width: 70%;
     }
 
+
+
+
+
+    /* Footer */
+
     footer {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
 }
 
+/* Mobile display */
 @media screen and (max-width: 768px) {
+    
+    /* Header */
+
     header {
         flex-direction: column;
         align-items: center;
@@ -372,6 +467,12 @@ ul {
         border-bottom: #0065FC solid 5px;
     }
 
+
+
+
+
+    /* Search */
+
     #search-submit-text {
         display: none;
     }
@@ -388,18 +489,38 @@ ul {
         border-radius: 15px;
     }
 
-    #hosting-results{
+
+
+
+
+    /* Hosting */
+
+    #hosting-results {
         align-items: center;
         justify-content: center;
     }
 
-    #hosting{
+    #hosting {
         flex-direction: column-reverse;
     }
 
     #hostings {
         margin-bottom: 10px;
     }
+
+    .hosting-card {
+        width: 100%;
+    }
+
+    .hosting-card-img {
+        height: 200px;
+    }
+
+
+
+
+
+    /* Popular hosting */
 
     #popular-hosting {
         margin-top: 10px;
@@ -410,17 +531,15 @@ ul {
         height: 200px;
     }
 
-    .hosting-card {
-        width: 100%;
-    }
-
     .popular-hosting-card-img {
         height: 200px;
     }
 
-    .hosting-card-img {
-        height: 200px;
-    }
+
+
+
+
+    /* Activities */
 
     .activities-cards-list {
         justify-content: center;
@@ -429,6 +548,10 @@ ul {
     .activities-card {
         width: 100%;
     }
+
+
+
+
 
     footer {
         flex-direction: column;
