@@ -7,8 +7,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" />
+    <script src="https://kit.fontawesome.com/528b36bbc1.js" crossorigin="anonymous"></script>
 
     <title>Booki</title>
 </head>
@@ -31,7 +30,7 @@
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
         <form id="search-form">
-            <i class="fa-solid fa-location-dot" id="search-location-dot-icon"></i>
+            <div id="search-location-dot-icon"><i class="fa-solid fa-location-dot"></i></div>
             <input type="text" name="destination" id="search-text-input" placeholder="Marseille, France" size="15" />
             <button id="search-submit-btn" type="submit">
                 <span id="search-submit-text">Rechercher</span>
@@ -41,28 +40,20 @@
         <div id="search-filters">
             <p id="search-filters-text">Filtres</p>
             <div class="search-filters-chip">
-                <div class="search-filters-chip">
-                    <i class="chip-icon fa-solid fa-money-bill-wave"></i>
-                    <p class="chip-text">Économique</p>
-                </div>
+                <div class="chip-icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+                <p class="chip-text">Économique</p>
             </div>
             <div class="search-filters-chip">
-                <div class="search-filters-chip">
-                    <i class="chip-icon fa-solid fa-child-reaching"></i>
-                    <p class="chip-text">Familiale</p>
-                </div>
+                <div class="chip-icon"><i class="fa-solid fa-child-reaching"></i></div>
+                <p class="chip-text">Familiale</p>
             </div>
             <div class="search-filters-chip">
-                <div class="search-filters-chip">
-                    <i class="chip-icon fa-solid fa-heart"></i>
-                    <p class="chip-text">Romantique</p>
-                </div>
+                <div class="chip-icon"><i class="fa-solid fa-heart"></i></div>
+                <p class="chip-text">Romantique</p>
             </div>
             <div class="search-filters-chip">
-                <div class="search-filters-chip">
-                    <i class="chip-icon fa-solid fa-dog"></i>
-                    <p class="chip-text">Animaux autorisés</p>
-                </div>
+                <div class="chip-icon"><i class="fa-solid fa-dog"></i></div>
+                <p class="chip-text">Animaux autorisés</p>
             </div>
         </div>
     </div>
@@ -232,30 +223,30 @@
                     <p class="activities-card-info"><b>Vieux Port</b></p>
                 </div>
                 <div class="activities-card">
-                    <img class="activities-card-img" src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                        alt="Activity cover" />
-                    <p><b>Fort de Pomègues</b></p>
+                    <img class="activities-card-img"
+                        src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Activity cover" />
+                    <p class="activities-card-info"><b>Fort de Pomègues</b></p>
                 </div>
                 <div class="activities-card">
-                    <img class="activities-card-img" src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                        alt="Activity cover" />
-                    <p><b>Îles du Friout</b></p>
+                    <img class="activities-card-img"
+                        src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Activity cover" />
+                    <p class="activities-card-info"><b>Îles du Friout</b></p>
                 </div>
                 <div class="activities-card">
                     <img class="activities-card-img"
                         src="assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                         alt="Activity cover" />
-                    <p><b>Le parc national des calanques</b></p>
+                    <p class="activities-card-info"><b>Le parc national des calanques</b></p>
                 </div>
                 <div class="activities-card">
-                    <img class="activities-card-img" src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                        alt="Activity cover" />
-                    <p><b>Notre-Dame-de-la-Garde</b></p>
+                    <img class="activities-card-img"
+                        src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Activity cover" />
+                    <p class="activities-card-info"><b>Notre-Dame-de-la-Garde</b></p>
                 </div>
                 <div class="activities-card">
                     <img class="activities-card-img" src="assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                         alt="Activity cover" />
-                    <p><b>Parc Longchamp</b></p>
+                    <p class="activities-card-info"><b>Parc Longchamp</b></p>
                 </div>
             </div>
         </section>

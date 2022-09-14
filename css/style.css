@@ -53,6 +53,15 @@ header {
     border: #F2F2F2 solid 2px;
 }
 
+#search-location-dot-icon {
+    border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
 #search-submit-btn {
     background-color: #0065FC;
     border: #F2F2F2 solid 3px;
@@ -100,6 +109,9 @@ header {
     width: 30px;
     height: 30px;
     color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .chip-text {
@@ -147,7 +159,6 @@ header {
 .hosting-card {
     width: 300px;
     background-color: white;
-    box-shadow: 0px 5px 20px #999;
     border-radius: 20px;
     margin: 1%;
     padding: 5px;
@@ -162,7 +173,7 @@ header {
 }
 
 .hosting-card-info {
-    padding: 0 5% 0% 5%;
+    padding: 0 5% 2% 5%;
 }
 
 
@@ -197,7 +208,6 @@ header {
     width: 350px;
     height: 150px;
     background-color: white;
-    box-shadow: 0px 5px 20px #999;
     border-radius: 20px;
     overflow: hidden;
     margin: 1%;
@@ -255,6 +265,10 @@ header {
     border-radius: 15px 15px 0 0;
 }
 
+.activities-card-info {
+    padding-left: 20px;
+}
+
 
 
 
@@ -296,11 +310,6 @@ ul {
 
     #search-submit-icon {
         display: none;
-    }
-
-    #search-location-dot-icon {
-        border-radius: 15px 0 0 15px;
-        background-color: #F2F2F2;
     }
 
 
@@ -453,7 +462,7 @@ ul {
         align-items: center;
     }
 
-    #menu {
+    #header-menu {
         flex-direction: row;
         width: 100%;
     }
