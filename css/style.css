@@ -487,6 +487,7 @@ ul {
         right: 15px;
         width: 45px;
         border-radius: 15px;
+        content:"";
     }
 
 
