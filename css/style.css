@@ -399,6 +399,21 @@ ul {
 /* Tablet display */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /* Header */
+
+    .menu-btn {
+        padding: 10%;
+    }
+
+    .menu-btn:hover {
+        background-color: #F2F2F2;
+        border-top: 5px solid #0065FC;
+    }
+
+
+
+
+
     /* Search */
 
     #search-submit-icon {
