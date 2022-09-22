@@ -146,6 +146,7 @@ header {
 
 #hosting {
     display: flex;
+    width: 100%;
 }
 
 #hosting-results {
@@ -166,7 +167,7 @@ header {
     width: 300px;
     background-color: white;
     border-radius: 20px;
-    margin: 1%;
+    margin: 20px;
     padding: 5px;
 }
 
@@ -216,7 +217,7 @@ header {
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
-    margin: 1%;
+    margin: 20px;
     padding: 5px;
     display: flex;
     flex-direction: row;
@@ -326,12 +327,16 @@ ul {
 
     #hosting {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
 
     #hostings {
         margin-right: 10px;
+    }
+
+    #hosting-results {
+        max-width: 1200px;
     }
 
 
@@ -341,8 +346,7 @@ ul {
     /* Popular hosting */
 
     #popular-hosting {
-        width: 30%;
-        min-width: 400px;
+        width: 550px;
         margin-left: 10px;
     }
 
