@@ -205,6 +205,13 @@ header {
     height: min-content;
 }
 
+#popular-hosting-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #popular-hosting-cards-list {
     display: flex;
     flex-direction: column;
