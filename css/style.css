@@ -19,6 +19,11 @@ header {
 
 #header-logo {
     margin: 25px;
+
+}
+
+#header-logo>img {
+    height: 70px;
 }
 
 #header-menu {
@@ -511,6 +516,7 @@ ul {
     header {
         flex-direction: column;
         align-items: center;
+        height: 150px;
     }
 
     #header-menu {
@@ -520,8 +526,8 @@ ul {
 
     .menu-btn {
         width: 50%;
-        padding: 10% 0 10% 0;
         border-bottom: #F2F2F2 solid 5px;
+        height: 30px;
     }
 
     .menu-btn:hover {
@@ -568,13 +574,10 @@ ul {
         flex-direction: column-reverse;
     }
 
-    #hostings {
-        margin-bottom: 10px;
-    }
-
     .hosting-card {
         width: 100%;
-        border: #F2F2F2 solid 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .hosting-card-img {
