@@ -98,7 +98,8 @@ h1 {
     font-weight: bold;
 }
 
-#search-filters-text, .search-filters-chip {
+#search-filters-text,
+.search-filters-chip {
     margin: 5px;
 }
 
@@ -456,10 +457,6 @@ ul {
         flex-direction: column-reverse;
     }
 
-    #hostings {
-        margin-bottom: 10px;
-    }
-
 
 
 
@@ -470,17 +467,10 @@ ul {
         margin-top: 10px;
     }
 
-    .popular-hosting-card {
-        width: 70%;
-        height: 200px;
-    }
-
-    .hosting-card {
-        width: 80%;
-    }
-
-    .hosting-card-img {
-        height: 300px;
+    #popular-hosting-cards-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 
@@ -490,11 +480,15 @@ ul {
     /* /Activities */
 
     #activities-cards-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
     }
 
     .activities-card {
-        width: 70%;
+        width: 400px;
+        margin: 10px;
     }
 
 
