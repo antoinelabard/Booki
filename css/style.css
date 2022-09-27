@@ -425,8 +425,8 @@ footer ul {
         order: 3;
     }
 
-    .activities-card:nth-child(1)>.activities-card-img,
-    .activities-card:nth-child(5)>.activities-card-img {
+    .activities-card:nth-child(6n+1)>.activities-card-img,
+    .activities-card:nth-child(6n+5)>.activities-card-img {
         height: 480px;
     }
 
