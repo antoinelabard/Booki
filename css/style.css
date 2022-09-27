@@ -13,6 +13,16 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
 /* Header */
 
 header {
@@ -191,6 +201,10 @@ h1 {
     box-shadow: #bbb 0 0 5px;
 }
 
+#hosting-cards-list li {
+    width: 300px;
+}
+
 .hosting-card-img {
     width: 100%;
     height: 150px;
@@ -231,7 +245,7 @@ h1 {
 }
 
 #popular-hosting-cards-list {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
 }
@@ -239,10 +253,8 @@ h1 {
 .popular-hosting-card {
     width: 350px;
     height: 170px;
-    text-decoration: none;
     background-color: white;
     border-radius: 20px;
-    overflow: hidden;
     margin: 20px;
     padding: 5px;
     display: flex;
@@ -261,7 +273,6 @@ h1 {
     padding: 0 5% 0% 5%;
     width: 50%;
     position: relative;
-    text-decoration: none;
 }
 
 .popular-hosting-card-rating {
@@ -322,9 +333,8 @@ footer {
     padding: 5%;
 }
 
-ul {
+footer ul {
     padding-left: 0px;
-    list-style-type: none;
     font-weight: normal;
     line-height: 1.5;
 }
@@ -444,7 +454,6 @@ ul {
     }
 
     .menu-btn:hover {
-        background-color: #F2F2F2;
         border-top: 5px solid #0065FC;
     }
 
