@@ -3,7 +3,6 @@
     src: url('../assets/Raleway-VariableFont_wght.ttf') format('truetype');
 }
 
-
 body {
     font-family: "Raleway";
 }
@@ -21,6 +20,12 @@ li a {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.hosting-card:hover,
+.popular-hosting-card:hover,
+.activities-card:hover {
+    background-color: #DEEBFF;
 }
 
 /* Header */
