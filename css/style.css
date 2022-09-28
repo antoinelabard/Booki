@@ -19,7 +19,6 @@ ul {
 li a {
     height: 100%;
     width: 100%;
-    display: block;
 }
 
 .hosting-card:hover,
