@@ -14,6 +14,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 li a {
@@ -205,10 +206,6 @@ h1 {
     box-shadow: #bbb 0 0 5px;
 }
 
-.hosting-cards-list li {
-    width: 300px;
-}
-
 .hosting-card-img {
     width: 100%;
     height: 150px;
@@ -249,7 +246,7 @@ h1 {
 }
 
 .popular-hosting-cards-list {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -268,7 +265,6 @@ h1 {
 
 .popular-hosting-card-img {
     width: 50%;
-    height: 100%;
     object-fit: cover;
     border-radius: 15px 0 0 15px;
 }
@@ -459,6 +455,13 @@ footer ul {
         flex-direction: column-reverse;
     }
 
+    .hosting-cards-list {
+        flex-direction: space-around;
+    }
+    .hosting-card {
+        margin: 10px;
+    }
+
 
 
 
@@ -484,12 +487,12 @@ footer ul {
     .activities-cards-list {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
+        justify-content: space-around;
     }
 
     .activities-card {
-        width: 400px;
+        width: 300px;
         margin: 10px;
     }
 
@@ -564,6 +567,10 @@ footer ul {
 
     /* Hosting */
 
+    .hosting {
+        flex-direction: column-reverse;
+    }
+
     .hosting-results {
         align-items: center;
         justify-content: center;
@@ -571,12 +578,13 @@ footer ul {
         background-color: white;
     }
 
-    .hosting {
-        flex-direction: column-reverse;
+    .hosting-cards-list {
+        flex-direction: column;
+        align-items: center;
     }
 
     .hosting-card {
-        width: 100%;
+        width: 90%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -596,8 +604,19 @@ footer ul {
         margin: 0;
     }
 
-    .popular-hosting-card {
+    .popular-hosting-cards-list {
         width: 100%;
+        flex-direction: column;
+    }
+
+    .popular-hosting-cards-list li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .popular-hosting-card {
+        width: 90%;
         height: 200px;
     }
 
@@ -621,7 +640,7 @@ footer ul {
     }
 
     .activities-card {
-        width: 100%;
+        width: auto;
     }
 
 
