@@ -372,7 +372,7 @@ footer ul {
 
     .hosting {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         min-height: 700px;
     }
 
@@ -403,7 +403,7 @@ footer ul {
     /* Activities */
 
     .activities-cards-list {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 
     .activities-card.long-card>.activities-card-img {
