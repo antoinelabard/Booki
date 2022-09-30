@@ -455,9 +455,7 @@ footer ul {
         flex-direction: column-reverse;
     }
 
-    .hosting-cards-list {
-        flex-direction: space-around;
-    }
+    
     .hosting-card {
         margin: 10px;
     }
